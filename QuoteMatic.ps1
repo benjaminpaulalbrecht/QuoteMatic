@@ -1,7 +1,6 @@
 # QuoteMatic.ps1 
 # Experiment in Powershell Module Design 
-# todo: create an article about it 
-#todo: add args for new url, etc
+
 
 
 . (Resolve-Path -Path 'ScrapLogger.ps1' -Verbose ) 
