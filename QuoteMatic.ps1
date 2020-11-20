@@ -4,9 +4,9 @@
 #todo: add args for new url, etc
 
 
-. (Resolve-Path -Path 'C:\Users\balbrecht\OneDrive - Energy Transfer\Q0FN\ScrapLogger.ps1' -Verbose ) 
+. (Resolve-Path -Path 'ScrapLogger.ps1' -Verbose ) 
 
-#$quoteUrl = "http://subfusion.net/cgi-bin/quote.pl?quote=cookie&number=1" 
+$quoteUrl = "http://subfusion.net/cgi-bin/quote.pl?quote=cookie&number=1" 
 
 function Get-Quote {
     param (
